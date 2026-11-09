@@ -1,75 +1,88 @@
-# React + TypeScript + Vite
+# Portafolio profesional
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Aplicación web para presentar mi hoja de vida, experiencia, formación, habilidades y proyectos.
 
-Currently, two official plugins are available:
+## Tecnologías
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+- React
+- TypeScript
+- Vite
+- Tailwind CSS
+- React Router
 
-## React Compiler
+## Estructura del proyecto
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
-
-## Expanding the ESLint configuration
-
-If you are developing a production application, we recommend updating the configuration to enable type-aware lint rules:
-
-```js
-export default defineConfig([
-  globalIgnores(['dist']),
-  {
-    files: ['**/*.{ts,tsx}'],
-    extends: [
-      // Other configs...
-
-      // Remove tseslint.configs.recommended and replace with this
-      tseslint.configs.recommendedTypeChecked,
-      // Alternatively, use this for stricter rules
-      tseslint.configs.strictTypeChecked,
-      // Optionally, add this for stylistic rules
-      tseslint.configs.stylisticTypeChecked,
-
-      // Other configs...
-    ],
-    languageOptions: {
-      parserOptions: {
-        project: ['./tsconfig.node.json', './tsconfig.app.json'],
-        tsconfigRootDir: import.meta.dirname,
-      },
-      // other options...
-    },
-  },
-])
-
+```text
+src/
+├── app/
+│   └── App.tsx
+├── components/
+│   ├── layout/
+│   │   ├── Header.tsx
+│   │   └── Footer.tsx
+│   └── ui/
+│       ├── Button.tsx
+│       └── SectionTitle.tsx
+├── features/
+│   ├── home/
+│   │   └── HomePage.tsx
+│   ├── about/
+│   │   └── AboutSection.tsx
+│   ├── experience/
+│   │   ├── ExperienceSection.tsx
+│   │   └── ExperienceCard.tsx
+│   ├── education/
+│   │   └── EducationSection.tsx
+│   ├── skills/
+│   │   └── SkillsSection.tsx
+│   ├── projects/
+│   │   ├── ProjectsPage.tsx
+│   │   └── ProjectCard.tsx
+│   └── contact/
+│       └── ContactSection.tsx
+├── data/
+│   ├── experience.ts
+│   ├── projects.ts
+│   └── skills.ts
+├── routes/
+│   └── AppRouter.tsx
+├── types/
+│   └── portfolio.ts
+├── assets/
+│   ├── images/
+│   └── icons/
+├── index.css
+└── main.tsx
 ```
 
-You can also install [eslint-plugin-react-x](https://npmx.dev/package/eslint-plugin-react-x) and [eslint-plugin-react-dom](https://npmx.dev/package/eslint-plugin-react-dom) for React-specific lint rules:
+### Organización
 
-```js
-// eslint.config.js
-import reactX from 'eslint-plugin-react-x'
-import reactDom from 'eslint-plugin-react-dom'
+- `app/`: componente raíz de la aplicación.
+- `components/`: componentes reutilizables, como encabezado, pie de página y botones.
+- `features/`: páginas y secciones propias del portafolio, agrupadas por funcionalidad.
+- `data/`: información que se muestra en las secciones, separada de la presentación.
+- `routes/`: configuración de React Router.
+- `types/`: tipos de TypeScript compartidos.
+- `assets/`: imágenes e íconos del proyecto.
+- `index.css`: estilos globales y configuración de Tailwind CSS.
 
-export default defineConfig([
-  globalIgnores(['dist']),
-  {
-    files: ['**/*.{ts,tsx}'],
-    extends: [
-      // Other configs...
-      // Enable lint rules for React
-      reactX.configs['recommended-typescript'],
-      // Enable lint rules for React DOM
-      reactDom.configs.recommended,
-    ],
-    languageOptions: {
-      parserOptions: {
-        project: ['./tsconfig.node.json', './tsconfig.app.json'],
-        tsconfigRootDir: import.meta.dirname,
-      },
-      // other options...
-    },
-  },
-])
+## Instalación y desarrollo
 
+Instala las dependencias:
+
+```bash
+pnpm install
+```
+
+Inicia el servidor de desarrollo:
+
+```bash
+pnpm dev
+```
+
+Para validar el proyecto:
+
+```bash
+pnpm lint
+pnpm build
 ```
