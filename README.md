@@ -22,9 +22,12 @@ src/
 │   ├── layout/
 │   │   ├── Header.tsx
 │   │   ├── Footer.tsx
+│   │   ├── ProfileSidebar.tsx
 │   │   └── PortfolioLayout.tsx
 │   └── ui/
 │       ├── Button.tsx
+│       ├── IconButton.tsx
+│       ├── Link.tsx
 │       └── SectionTitle.tsx
 ├── features/
 │   ├── home/
@@ -48,7 +51,11 @@ src/
 ├── data/
 │   ├── experience.ts
 │   ├── projects.ts
-│   └── skills.ts
+│   ├── skills.ts
+│   ├── profile.json
+│   ├── experience.json
+│   ├── skills.json
+│   └── education.json
 ├── routes/
 │   └── AppRouter.tsx
 ├── types/
@@ -56,8 +63,13 @@ src/
 ├── assets/
 │   ├── images/
 │   ├── icons/
+│   ├── img/
+│   │   └── img-perfil.jpeg
+│   ├── doc/
+│   │   └── CV.pdf
 │   └── icon/
-│       └── icon-index.png
+│       ├── icon-index.png
+│       └── icon-profile.png
 ├── index.css
 └── main.tsx
 ```

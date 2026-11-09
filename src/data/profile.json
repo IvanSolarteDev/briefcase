@@ -1,0 +1,18 @@
+{
+  "fullName": "Ivan Dario Solarte Isacaz",
+  "headline": "Desarrollador Full Stack Senior",
+  "specialties": [
+    "Angular",
+    "React",
+    "TypeScript",
+    "Node.js",
+    ".NET",
+    "React Native",
+    "APIs REST"
+  ],
+  "location": "Medellín, Antioquia, Colombia",
+  "phone": "315 304 8114",
+  "email": "ivansolarte69@gmail.com",
+  "linkedin": "https://linkedin.com/in/ivan-dario-solarte-isacaz-b77b39180",
+  "summary": "Ingeniero de Sistemas y Desarrollador Full Stack con más de 8 años construyendo aplicaciones web y móviles para los sectores financiero y fintech, comercio electrónico, seguros, salud y energía. Especializado en frontend con Angular, React, React Native y TypeScript, con experiencia backend en Node.js, Nest.js, Express.js y .NET Core, APIs REST, bases de datos SQL y NoSQL, AWS y Azure. Ha construido módulos de pedidos, inventario y comisiones, plataformas con pagos en línea y aplicaciones financieras con más de 1.000 usuarios. Trabaja con equipos distribuidos bajo Scrum y utiliza IA y agentes para acelerar el desarrollo sin perder calidad."
+}
