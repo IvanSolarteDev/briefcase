@@ -1,0 +1,20 @@
+{
+  "education": [
+    {
+      "degree": "Ingeniería de Sistemas",
+      "institution": "Universidad Mariana",
+      "location": "Pasto, Nariño",
+      "endDate": "2016-12"
+    }
+  ],
+  "languages": [
+    {
+      "name": "Español",
+      "level": "Nativo"
+    },
+    {
+      "name": "Inglés",
+      "level": "En formación; actualmente tomando clases"
+    }
+  ]
+}
