@@ -1,5 +1,3 @@
-import React from "react";
-
 export default function HomePage() {
   return (
     <section className="flex min-h-[60vh] flex-col justify-center">
