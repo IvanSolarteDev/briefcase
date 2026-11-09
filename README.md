@@ -16,16 +16,21 @@ Aplicación web para presentar mi hoja de vida, experiencia, formación, habilid
 src/
 ├── app/
 │   └── App.tsx
+├── App.tsx
+├── App.css
 ├── components/
 │   ├── layout/
 │   │   ├── Header.tsx
-│   │   └── Footer.tsx
+│   │   ├── Footer.tsx
+│   │   └── PortfolioLayout.tsx
 │   └── ui/
 │       ├── Button.tsx
 │       └── SectionTitle.tsx
 ├── features/
 │   ├── home/
 │   │   └── HomePage.tsx
+│   ├── profile/
+│   │   └── ProfilePage.tsx
 │   ├── about/
 │   │   └── AboutSection.tsx
 │   ├── experience/
@@ -50,7 +55,9 @@ src/
 │   └── portfolio.ts
 ├── assets/
 │   ├── images/
-│   └── icons/
+│   ├── icons/
+│   └── icon/
+│       └── icon-index.png
 ├── index.css
 └── main.tsx
 ```
