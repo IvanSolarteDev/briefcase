@@ -3,6 +3,6 @@ import { defineConfig } from 'vite'
 
 // https://vite.dev/config/
 export default defineConfig({
-  base: '/nombre-de-tu-repositorio/',
+  base: '/briefcase/',
   plugins: [react()],
 })
