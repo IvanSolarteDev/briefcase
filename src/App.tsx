@@ -1,15 +1,8 @@
-
-
-import './App.css'
+import "./App.css";
+import AppRouter from "./routes/AppRouter";
 
 function App() {
-  
-
-  return (
-    <>
-      <p className="text-3xl font-bold underline">Portafolio</p>
-    </>
-  )
+  return <AppRouter />;
 }
 
-export default App
+export default App;
