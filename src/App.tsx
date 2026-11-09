@@ -7,7 +7,7 @@ function App() {
 
   return (
     <>
-      <p>Portafolio</p>
+      <p className="text-3xl font-bold underline">Portafolio</p>
     </>
   )
 }
