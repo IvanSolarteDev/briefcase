@@ -1,0 +1,89 @@
+{
+  "frameworks": {
+    "Angular": [
+      "Angular 4 a 21",
+      "Signals",
+      "RxJS",
+      "NgRx",
+      "Servicios e inyección de dependencias",
+      "Lazy loading",
+      "Optimización de rendimiento",
+      "Angular CLI",
+      "Angular Material"
+    ],
+    "React": [
+      "Componentes funcionales y JSX",
+      "Hooks: useState, useEffect, useMemo, useCallback y useRef",
+      "Custom hooks",
+      "Context API",
+      "React Router",
+      "React.memo",
+      "Lazy loading y code splitting",
+      "Zustand",
+      "React Native CLI"
+    ]
+  },
+  "frontend": [
+    "TypeScript",
+    "JavaScript ES6+",
+    "HTML5",
+    "Interfaces con diagramas y nodos interactivos",
+    "jQuery"
+  ],
+  "stylesAndUi": [
+    "CSS3",
+    "SCSS/Sass",
+    "Flexbox",
+    "CSS Grid",
+    "Tailwind CSS",
+    "Bootstrap",
+    "Diseño responsivo y mobile-first",
+    "Librerías de componentes",
+    "Atomic Design"
+  ],
+  "backend": [
+    "Node.js",
+    "Nest.js",
+    "Express.js",
+    ".NET Core",
+    "PHP",
+    "Symfony",
+    "APIs REST",
+    "WebSocket"
+  ],
+  "databases": ["PostgreSQL", "SQL Server", "MySQL", "MongoDB"],
+  "cloudAndDevOps": [
+    "AWS: S3, CloudFront y Lambda",
+    "Azure APIs",
+    "Azure DevOps",
+    "Docker",
+    "CI/CD con GitHub Actions"
+  ],
+  "tools": [
+    "Git",
+    "GitHub",
+    "npm",
+    "yarn",
+    "Webpack",
+    "Figma",
+    "Visual Studio",
+    "VS Code"
+  ],
+  "testing": [
+    "Pruebas unitarias con Jest",
+    "Backends de prueba en Node.js para validar integraciones"
+  ],
+  "methodologies": [
+    "Agile",
+    "Scrum",
+    "XP",
+    "MVC",
+    "Código limpio",
+    "Integración continua"
+  ],
+  "aiForDevelopment": [
+    "GitHub Copilot",
+    "Claude",
+    "Uso y creación de agentes para desarrollo, pruebas y documentación"
+  ]
+}

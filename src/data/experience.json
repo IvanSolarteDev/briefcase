@@ -1,0 +1,135 @@
+[
+  {
+    "role": "Desarrollador Senior",
+    "company": "Home Power",
+    "startDate": "2025-06",
+    "endDate": "Actualidad",
+    "location": "Medellín, cliente en Puerto Rico",
+    "industry": "Energía solar",
+    "team": "Equipo de 8 a 10 personas",
+    "responsibilities": [
+      "Desarrollé la aplicación móvil en React Native CLI y la aplicación web en Angular 21 para que el cliente pueda seguir su compra de paneles solares.",
+      "Construí módulos de pedidos, inventario, almacén y cálculo y pago de comisiones.",
+      "Creé un backend en Node.js para probar integraciones y flujos antes de los despliegues a producción.",
+      "Manejé el estado global con Zustand, integré APIs REST y diseñé interfaces responsivas con Tailwind CSS.",
+      "Incorporé Copilot, Claude y agentes de IA al flujo de desarrollo, refactorización y pruebas."
+    ],
+    "technologies": [
+      "React Native CLI",
+      "Angular 21",
+      "Node.js",
+      "TypeScript",
+      "Zustand",
+      "Tailwind CSS",
+      "APIs REST",
+      "GitHub Copilot",
+      "Claude"
+    ]
+  },
+  {
+    "role": "Desarrollador Full Stack",
+    "company": "Grupo MOK",
+    "startDate": "2023-08",
+    "endDate": "2025-01",
+    "location": "Santiago, Chile",
+    "industry": "Consultoría de software; finanzas, comercio electrónico y sector corporativo",
+    "responsibilities": [
+      "Desarrollé una aplicación de operaciones financieras en Angular para más de 1.000 usuarios y mantuve sus servicios Node.js.",
+      "Desarrollé una plataforma de turismo en React para la venta en línea de viajes, paquetes y vuelos, con pagos integrados con Wompi.",
+      "Construí una herramienta corporativa interna en Angular y React con diseño atómico y componentes reutilizables.",
+      "Desarrollé interfaces responsivas con Tailwind CSS, Sass y Bootstrap y aceleré entregas con Copilot y Claude."
+    ],
+    "technologies": [
+      "Angular",
+      "React",
+      "TypeScript",
+      "JavaScript",
+      "Node.js",
+      "Wompi",
+      "Tailwind CSS",
+      "Sass",
+      "Bootstrap",
+      "GitHub Copilot",
+      "Claude"
+    ]
+  },
+  {
+    "role": "Desarrollador Senior",
+    "company": "Appinit (antes DIBANKA S.A.S.)",
+    "startDate": "2021-09",
+    "endDate": "2023-03",
+    "location": "Bogotá, Colombia",
+    "industry": "Finanzas y fintech",
+    "responsibilities": [
+      "Desarrollé con React y TypeScript la aplicación web para clientes y aplicaciones internas con manejo seguro de transacciones.",
+      "Participé en la creación de una librería de componentes JavaScript reutilizada en varios proyectos.",
+      "Construí interfaces modernas y responsivas con Tailwind CSS."
+    ],
+    "technologies": ["React", "TypeScript", "JavaScript", "Tailwind CSS"]
+  },
+  {
+    "role": "Desarrollador Full Stack",
+    "company": "CJT & T",
+    "startDate": "2019-11",
+    "endDate": "2021-03",
+    "industry": "Salud y finanzas",
+    "responsibilities": [
+      "Desarrollé aplicaciones web para salud con Angular y Angular Material, y para finanzas con React y Bootstrap.",
+      "Implementé y optimicé servicios backend con Node.js, Express.js y .NET sobre MySQL."
+    ],
+    "technologies": [
+      "React",
+      "Angular",
+      "Angular Material",
+      "Bootstrap",
+      "Node.js",
+      "Express.js",
+      ".NET",
+      "MySQL"
+    ]
+  },
+  {
+    "role": "Programador Frontend y Backend",
+    "company": "SIIAN",
+    "startDate": "2019-07",
+    "endDate": "2019-09",
+    "industry": "Salud",
+    "responsibilities": [
+      "Desarrollé una aplicación web para una institución de salud con Angular y Bootstrap 4 en frontend, y Node.js, Express.js y MySQL en backend."
+    ],
+    "technologies": ["Angular", "Bootstrap 4", "Node.js", "Express.js", "MySQL"]
+  },
+  {
+    "role": "Ingeniero de Sistemas",
+    "company": "Movilidad Sostenible Ltda.",
+    "startDate": "2017-10",
+    "endDate": "2018-01",
+    "location": "Bogotá, Colombia",
+    "responsibilities": [
+      "Desarrollé una aplicación web de facturación con HTML, JavaScript y CSS."
+    ],
+    "technologies": ["HTML", "JavaScript", "CSS"]
+  },
+  {
+    "role": "Ingeniero de Sistemas y Desarrollador de Software",
+    "company": "Nova Sistemas Ltda.",
+    "startDate": "2017-04",
+    "endDate": "2017-10",
+    "location": "Bogotá, Colombia",
+    "industry": "Comercio electrónico",
+    "responsibilities": [
+      "Desarrollé una tienda en línea con PHP, JavaScript, HTML y CSS."
+    ],
+    "technologies": ["PHP", "JavaScript", "HTML", "CSS"]
+  },
+  {
+    "role": "Analista y Desarrollador de Software",
+    "company": "SIIEM S.A.S.",
+    "startDate": "2016-01",
+    "endDate": "2017-02",
+    "responsibilities": [
+      "Actualicé las plantillas web de la empresa, construidas en HTML, JavaScript y CSS."
+    ],
+    "technologies": ["HTML", "JavaScript", "CSS"]
+  }
+]

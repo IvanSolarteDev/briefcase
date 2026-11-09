@@ -4,11 +4,11 @@ export default function HomePage() {
       <p className="mb-5 text-sm text-accent">✦ ¡Hola!</p>
 
       <h1 className="max-w-3xl text-4xl font-semibold leading-tight tracking-tight text-accent md:text-6xl">
-        Soy tu nombre, desarrollador web.
+        Soy Ivan Solarte, desarrollador .
       </h1>
 
       <p className="mt-5 max-w-xl text-base leading-7 text-muted md:text-lg">
-        Creo experiencias digitales y aplicaciones web.
+        Ingeniero de Sistemas y desarrollador de software con más de 7 años de experiencia en frontend y backend, creando aplicaciones web y móviles para fintech, comercio y energía. Convierto retos de negocio en soluciones escalables con Angular, React y Node.js.
       </p>
 
       <a
