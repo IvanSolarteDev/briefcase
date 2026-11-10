@@ -25,6 +25,7 @@ src/
 │   │   ├── ProfileSidebar.tsx
 │   │   └── PortfolioLayout.tsx
 │   └── ui/
+│       ├── Badge.tsx
 │       ├── Button.tsx
 │       ├── IconButton.tsx
 │       ├── Link.tsx
@@ -38,16 +39,20 @@ src/
 │   │   └── AboutSection.tsx
 │   ├── experience/
 │   │   ├── ExperienceSection.tsx
-│   │   └── ExperienceCard.tsx
+│   │   ├── ExperienceCard.tsx
+│   │   └── ExperiencePage.tsx
 │   ├── education/
-│   │   └── EducationSection.tsx
+│   │   ├── EducationSection.tsx
+│   │   └── EducationPage.tsx
 │   ├── skills/
-│   │   └── SkillsSection.tsx
+│   │   ├── SkillsSection.tsx
+│   │   └── SkillsPage.tsx
 │   ├── projects/
 │   │   ├── ProjectsPage.tsx
 │   │   └── ProjectCard.tsx
 │   └── contact/
-│       └── ContactSection.tsx
+│       ├── ContactSection.tsx
+│       └── ContactPage.tsx
 ├── data/
 │   ├── experience.ts
 │   ├── projects.ts
@@ -68,8 +73,18 @@ src/
 │   ├── doc/
 │   │   └── CV.pdf
 │   └── icon/
-│       ├── icon-index.png
-│       └── icon-profile.png
+│   │   ├── icon-index.png
+│   │   ├── icon-angular.png
+│   │   ├── icon-bootstrap.png
+│   │   ├── icon-css.png
+│   │   ├── icon-html.png
+│   │   ├── icon-js.png
+│   │   ├── icon-net-core.png
+│   │   ├── icon-node.png
+│   │   ├── icon-profile.png
+│   │   ├── icon-react.png
+│   │   ├── icon-tailwind.png
+│   │   └── icon-ui.png
 ├── index.css
 └── main.tsx
 ```
