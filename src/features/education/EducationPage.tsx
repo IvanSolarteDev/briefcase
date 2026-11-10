@@ -3,14 +3,14 @@ import educationData from "../../data/education.json";
 export default function EducationPage() {
   return (
     <section>
-      <h1 className="text-3xl font-semibold text-accent md:text-4xl">
+      <h1 className="font-display text-3xl font-semibold text-accent md:text-4xl">
         Estudios
       </h1>
       <div className="mt-5 space-y-5">
         {educationData.education.map((education) => (
           <article
             key={`${education.institution}-${education.degree}`}
-            className="rounded-2xl border border-border p-5"
+            className="rounded-2xl border border-border p-5 transition-all duration-200 hover:-translate-y-0.5 hover:border-accent/50 hover:bg-accent/5 hover:shadow-md motion-reduce:transition-none"
           >
             <h2 className="text-lg font-semibold text-foreground">
               {education.degree}
@@ -23,7 +23,7 @@ export default function EducationPage() {
         ))}
       </div>
 
-      <h2 className="mt-10 text-3xl font-semibold text-accent md:text-4xl">
+      <h2 className="font-display mt-10 text-3xl font-semibold text-accent md:text-4xl">
         Idiomas
       </h2>
       <ul className="mt-4 space-y-3">

@@ -80,7 +80,7 @@ function ActivityIcon({ name }: { name: ActivityIconName }) {
 export default function ExperiencePage() {
   return (
     <section>
-      <h1 className="text-3xl font-semibold text-accent md:text-4xl">
+      <h1 className="font-display text-3xl font-semibold text-accent md:text-4xl">
         Experiencia profesional
       </h1>
       <p className="mt-2 max-w-2xl text-sm leading-6 text-muted">
@@ -95,7 +95,7 @@ export default function ExperiencePage() {
           return (
             <details
               key={`${experience.company}-${experience.startDate}`}
-              className="group overflow-hidden rounded-2xl border border-border bg-skill-card transition-colors duration-300 open:border-accent/50"
+              className="group overflow-hidden rounded-2xl border border-border bg-skill-card transition-all duration-200 hover:-translate-y-0.5 hover:border-accent/40 hover:shadow-md open:border-accent/50 open:shadow-md motion-reduce:transition-none"
             >
               <summary className="flex cursor-pointer list-none items-center justify-between gap-4 p-4 outline-none transition-colors hover:bg-accent/5 focus-visible:ring-2 focus-visible:ring-accent sm:px-5 [&::-webkit-details-marker]:hidden">
                 <span className="font-display text-lg font-semibold tracking-tight text-foreground">

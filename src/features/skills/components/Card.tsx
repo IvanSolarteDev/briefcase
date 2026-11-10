@@ -23,7 +23,7 @@ export default function Card({ skill }: SkillCardProps) {
   return (
     <article
       key={skill.title}
-      className="rounded-2xl border border-border bg-skill-card p-5 transition-colors duration-300"
+      className="rounded-2xl border border-border bg-skill-card p-5 transition-all duration-200 hover:-translate-y-1 hover:border-accent/50 hover:shadow-md motion-reduce:transition-none"
     >
       <div className="flex items-center gap-3">
         <span className="grid size-10 shrink-0 place-items-center">

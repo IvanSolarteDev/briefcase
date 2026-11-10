@@ -153,7 +153,7 @@ const featuredSkills = [
 export default function SkillsPage() {
   return (
     <section>
-      <h1 className="text-3xl font-semibold text-accent md:text-4xl">
+      <h1 className="font-display text-3xl font-semibold text-accent md:text-4xl">
         Conocimientos
       </h1>
 

@@ -3,7 +3,7 @@ export default function ProjectsPage() {
     <section aria-labelledby="projects-title">
       <h1
         id="projects-title"
-        className="text-3xl font-semibold text-accent md:text-4xl"
+        className="font-display text-3xl font-semibold text-accent md:text-4xl"
       >
         Mis proyectos
       </h1>
@@ -33,7 +33,7 @@ export default function ProjectsPage() {
             d="M12 3a9 9 0 0 1 9 9h-3a6 6 0 0 0-6-6V3Z"
           />
         </svg>
-        
+        <p>Estoy preparando esta sección. Pronto podrás explorar mis proyectos.</p>
       </div>
     </section>
   );

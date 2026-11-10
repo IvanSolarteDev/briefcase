@@ -1,6 +1,7 @@
 import { version } from "../../../package.json";
 import profileImage from "../../assets/img/img-perfil.jpeg";
 import profileIcon from "../../assets/icon/icon-profile.png";
+import profile from "../../data/profile.json";
 import Link from "../ui/Link";
 
 export default function ProfileSidebar() {
@@ -77,7 +78,7 @@ export default function ProfileSidebar() {
             </svg>
           </Link>
           <Link
-            href="mailto:tu-correo@ejemplo.com"
+            href={`mailto:${profile.email}`}
             aria-label="Correo electrónico"
             className="grid size-8 place-items-center rounded-full border border-border text-muted transition-all duration-200 hover:scale-110 hover:border-accent hover:bg-accent/10 hover:text-accent active:scale-95"
           >
