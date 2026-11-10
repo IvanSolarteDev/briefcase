@@ -27,14 +27,23 @@ export default function Header() {
         aria-label="Navegación principal"
         className="flex flex-wrap items-center gap-1"
       >
-        <Link to="/" end>
+        <Link to="/" end openInNewTab={false}>
           Inicio
         </Link>
-        <Link to="/proyectos">
+        <Link to="/conocimientos" openInNewTab={false}>
+          Conocimientos
+        </Link>
+        <Link to="/experiencia" openInNewTab={false}>
+          Experiencia
+        </Link>
+        <Link to="/estudios" openInNewTab={false}>
+          Estudios
+        </Link>
+        <Link to="/proyectos" openInNewTab={false}>
           Proyectos
         </Link>
-        <Link to="/perfil">
-          Perfil
+        <Link to="/contacto" openInNewTab={false}>
+          Contacto
         </Link>
       </nav>
 

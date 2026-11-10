@@ -11,7 +11,7 @@ export default function Button({
   return (
     <button
       type={type}
-      className={`rounded-xl bg-accent px-4 py-1.5 text-sm font-medium text-accent-foreground transition-colors duration-300 hover:opacity-80 ${className}`}
+      className={`rounded-xl bg-accent px-4 py-1.5 text-sm font-medium text-accent-foreground transition-all duration-200 hover:-translate-y-0.5 hover:opacity-90 active:translate-y-0 focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-accent motion-reduce:transition-none ${className}`}
       {...props}
     >
       {children}

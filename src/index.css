@@ -7,6 +7,7 @@
   --foreground: #f4f4f5; /* Letras claras */
   --surface: #201e1e;
   --surface-raised: #201e1e;
+  --skill-card: #2b2727;
   --border: #292929;
   --muted: #a1a1aa;
   --muted-subtle: #71717a;
@@ -20,6 +21,7 @@
   --foreground: #211d21; /* Letras oscuras */
   --surface: #ffffff;
   --surface-raised: #ffffff;
+  --skill-card: #f0edf0;
   --border: #e5dfe5;
   --muted: #6b626b;
   --muted-subtle: #827982;
@@ -28,10 +30,12 @@
 }
 
 @theme inline {
+  --font-display: "Outfit", sans-serif;
   --color-background: var(--background);
   --color-foreground: var(--foreground);
   --color-surface: var(--surface);
   --color-surface-raised: var(--surface-raised);
+  --color-skill-card: var(--skill-card);
   --color-border: var(--border);
   --color-muted: var(--muted);
   --color-muted-subtle: var(--muted-subtle);
@@ -44,4 +48,45 @@ body {
   background-color: var(--background);
   color: var(--foreground);
   font-family: Arial, Helvetica, sans-serif;
+}
+
+@keyframes route-enter {
+  from {
+    opacity: 0;
+    transform: translateY(24px);
+  }
+
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.route-enter {
+  animation: route-enter 450ms ease-out both;
+}
+
+@keyframes icon-carousel-scroll {
+  to {
+    transform: translateX(calc(-50% - 0.375rem));
+  }
+}
+
+.icon-carousel-track {
+  animation: icon-carousel-scroll 28s linear infinite;
+}
+
+.icon-carousel:hover .icon-carousel-track,
+.icon-carousel:focus-within .icon-carousel-track {
+  animation-play-state: paused;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .route-enter {
+    animation: none;
+  }
+
+  .icon-carousel-track {
+    animation: none;
+  }
 }
